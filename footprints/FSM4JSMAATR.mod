@@ -1,0 +1,69 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SW_FSM4JSMAATR
+$EndINDEX
+$MODULE SW_FSM4JSMAATR
+Po 0 0 0 15 00000000 00000000 ~~
+Li SW_FSM4JSMAATR
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.712427 -4.10896 1.00341 1.00341 0 0.05 N V 21 "SW_FSM4JSMAATR"
+T1 -0.0551112 4.15318 1.00197 1.00197 0 0.05 N V 21 "VAL**"
+DS -3 3 -3 -3 0.127 21
+DS -3 -3 3 -3 0.127 21
+DS 3 -3 3 3 0.127 21
+DS 3 3 -3 3 0.127 21
+DS -3 3 -3 -3 0.127 24
+DS -3 -3 3 -3 0.127 24
+DS 3 -3 3 3 0.127 24
+DS 3 3 -3 3 0.127 24
+DC 0 0 1.75 0 0.127 21
+DC 0 0 1.75 0 0.127 24
+DC -2.2 2.2 -1.7 2.2 0.127 24
+DC -2.2 -2.2 -1.7 -2.2 0.127 24
+DC 2.2 2.2 2.7 2.2 0.127 24
+DC 2.2 -2.2 2.7 -2.2 0.127 24
+DC -5.25 -3.6 -5.15 -3.6 0.2 21
+DS -6 3.25 -6 -3.25 0.05 26
+DS -6 -3.25 6 -3.25 0.05 26
+DS 6 -3.25 6 3.25 0.05 26
+DS 6 3.25 -6 3.25 0.05 26
+$PAD
+Sh "3" R 1.4 2.1 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -4.55 2.25
+$EndPAD
+$PAD
+Sh "1" R 1.4 2.1 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -4.55 -2.25
+$EndPAD
+$PAD
+Sh "4" R 1.4 2.1 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 4.55 2.25
+$EndPAD
+$PAD
+Sh "2" R 1.4 2.1 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 4.55 -2.25
+$EndPAD
+$EndMODULE SW_FSM4JSMAATR
