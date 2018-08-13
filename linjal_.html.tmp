@@ -1,0 +1,137 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="http://xtian.nvg.org/prettyhtml/bom.css" />
+</head>
+<body>
+<div class="header">
+<div class="titlebox">
+<p><h1>Bill of Materials</h1></P>
+<p style="padding-left: 25px; margin-top: -20px;"><input type="text" onfocus="this.value=''" style="font-size:1.5em; width:100%;" value="Skriv inn tittel her"></p>
+<p style="padding-left: 25px; margin-top: -20px;"><input type="text" onfocus="this.value=''" style="font-size:1em; width:100%; font-style: italic;" value="Skriv inn ditt navn her"></p>
+</div>
+<div class="logobox">
+<img src="https://blogdotoshparkdotcom.files.wordpress.com/2016/12/screenshot-from-2016-12-21-20-26-05.png">
+</div>
+</div>
+<table class="minimalistBlack">
+<thead>
+<tr>
+	<th></th>
+	<th align="center">Description</th>
+	<th align="center">Part</th>
+	<th align="center">References</th>
+	<th align="center">Value</th>
+	<th align="center">Footprint</th>
+	<th align="center">Quantity Per PCB</th>
+	<th align="center">Datasheet</th>
+	<th align="center">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td align="center">1</td>
+	<td align="left">single battery cell</td>
+	<td align="left">Battery_Cell</td>
+	<td align="left">BT1</td>
+	<td align="left">BC-2001</td>
+	<td align="left">BC-2001</td>
+	<td align="left">1</td>
+	<td align="left"><a href="http://www.farnell.com/datasheets/1505853.pdf?_ga=2.122135179.1882748413.1533757880-423028813.1532970484" target="_blank">http://www.farnell.com/datasheets/1505853.pdf?_ga=2.122135179.1882748413.1533757880-423028813.1532970484</a></td>
+	<td align="left"><a href="http://no.farnell.com/multicomp/bc-2001/retainer-clip-20mm-smt/dp/2064713?st=cr2032%20holder" target="_blank">http://no.farnell.com/multicomp/bc-2001/retainer-clip-20mm-smt/dp/2064713?st=cr2032%20holder</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td align="center">2</td>
+	<td align="left">Unpolarized capacitor</td>
+	<td align="left">C_Small</td>
+	<td align="left">C1</td>
+	<td align="left">300n</td>
+	<td align="left">C_0603</td>
+	<td align="left">1</td>
+	<td align="left">~</td>
+	<td align="left"></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td align="center">3</td>
+	<td align="left">LED, small symbol</td>
+	<td align="left">LED_Small</td>
+	<td align="left">D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18</td>
+	<td align="left">LED</td>
+	<td align="left">LED_0603</td>
+	<td align="left">18</td>
+	<td align="left">~</td>
+	<td align="left"></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td align="center">4</td>
+	<td align="left">Resistor, small symbol</td>
+	<td align="left">R_Small</td>
+	<td align="left">R3 R4</td>
+	<td align="left">10R</td>
+	<td align="left">R_0603</td>
+	<td align="left">2</td>
+	<td align="left">~</td>
+	<td align="left"></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td align="center">5</td>
+	<td align="left">Resistor, small symbol</td>
+	<td align="left">R_Small</td>
+	<td align="left">R1</td>
+	<td align="left">1M</td>
+	<td align="left">R_0603</td>
+	<td align="left">1</td>
+	<td align="left">~</td>
+	<td align="left"></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td align="center">6</td>
+	<td align="left">Resistor, small symbol</td>
+	<td align="left">R_Small</td>
+	<td align="left">R2</td>
+	<td align="left">20k</td>
+	<td align="left">R_0603</td>
+	<td align="left">1</td>
+	<td align="left">~</td>
+	<td align="left"></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td align="center">7</td>
+	<td align="left">1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</td>
+	<td align="left">SW_DIP_x01</td>
+	<td align="left">SW1</td>
+	<td align="left">FSM4JSMAATR</td>
+	<td align="left">SW_FSM4JSMAATR</td>
+	<td align="left">1</td>
+	<td align="left"><a href="http://www.farnell.com/datasheets/2074932.pdf?_ga=2.114085255.1882748413.1533757880-423028813.1532970484" target="_blank">http://www.farnell.com/datasheets/2074932.pdf?_ga=2.114085255.1882748413.1533757880-423028813.1532970484</a></td>
+	<td align="left"><a href="http://no.farnell.com/alcoswitch-te-connectivity/fsm4jsmaatr/tactile-switch-spst-no-0-05a-24v/dp/2610936" target="_blank">http://no.farnell.com/alcoswitch-te-connectivity/fsm4jsmaatr/tactile-switch-spst-no-0-05a-24v/dp/2610936</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+	<td align="center">8</td>
+	<td align="left">Timer, DIP-8/SOIC-8/SSOP-8</td>
+	<td align="left">LM555</td>
+	<td align="left">U1</td>
+	<td align="left">LM555</td>
+	<td align="left">8-SOIC</td>
+	<td align="left">1</td>
+	<td align="left"><a href="http://www.ti.com/lit/ds/symlink/lm555.pdf" target="_blank">http://www.ti.com/lit/ds/symlink/lm555.pdf</a></td>
+	<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<br><br>
+</body></html>

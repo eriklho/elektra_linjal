@@ -23,6 +23,7 @@ F 1 "BC-2001" H 3118 2355 50  0000 L CNN
 F 2 "footprints:BC-2001" V 3000 2410 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1505853.pdf?_ga=2.122135179.1882748413.1533757880-423028813.1532970484" V 3000 2410 50  0001 C CNN
 F 4 "http://no.farnell.com/multicomp/bc-2001/retainer-clip-20mm-smt/dp/2064713?st=cr2032%20holder" H 3000 2350 50  0001 C CNN "Link"
+F 5 "5.82" H 3000 2350 50  0001 C CNN "Price NOK"
 	1    3000 2350
 	1    0    0    -1  
 $EndComp
@@ -35,6 +36,7 @@ F 1 "FSM4JSMAATR" H 4000 2326 50  0000 C CNN
 F 2 "FSM4JSMAATR:SW_FSM4JSMAATR" H 4000 2150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2074932.pdf?_ga=2.114085255.1882748413.1533757880-423028813.1532970484" H 4000 2150 50  0001 C CNN
 F 4 "http://no.farnell.com/alcoswitch-te-connectivity/fsm4jsmaatr/tactile-switch-spst-no-0-05a-24v/dp/2610936" H 4000 2150 50  0001 C CNN "Link"
+F 5 "1.53" H 4000 2150 50  0001 C CNN "Price NOK"
 	1    4000 2150
 	1    0    0    -1  
 $EndComp
@@ -46,6 +48,8 @@ F 0 "U1" H 5300 3228 50  0000 C CNN
 F 1 "LM555" H 5300 3137 50  0000 C CNN
 F 2 "digikey-footprints:8-SOIC" H 5300 2650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 5300 2650 50  0001 C CNN
+F 4 "http://no.farnell.com/texas-instruments/lm555cm-nopb/ic-timer-18v-smd/dp/1469006?ost=LM555CM%2FNOPB&scope=partnumberlookahead&exaMfpn=true&searchref=searchlookahead&ddkey=http%3Ano-NO%2FElement14_Norway%2Fw%2Fsearch" H 5300 2650 50  0001 C CNN "Link"
+F 5 "9.71" H 5300 2650 50  0001 C CNN "Price NOK"
 	1    5300 2650
 	1    0    0    -1  
 $EndComp
@@ -107,7 +111,9 @@ P 5800 3250
 F 0 "C1" H 5892 3296 50  0000 L CNN
 F 1 "300n" H 5892 3205 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5800 3250 50  0001 C CNN
-F 3 "~" H 5800 3250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2546801.pdf?_ga=2.39332131.1002178609.1534072143-423028813.1532970484" H 5800 3250 50  0001 C CNN
+F 4 "http://no.farnell.com/wurth-elektronik/885012206011/cap-mlcc-x7r-3300pf-10v-0603/dp/2812324" H 5800 3250 50  0001 C CNN "Link"
+F 5 "0.298" H 5800 3250 50  0001 C CNN "Price NOK"
 	1    5800 3250
 	1    0    0    -1  
 $EndComp
@@ -350,7 +356,9 @@ P 6150 2550
 F 0 "D1" V 6196 2482 50  0000 R CNN
 F 1 "LED" V 6105 2482 50  0000 R CNN
 F 2 "LEDs:LED_0603" V 6150 2550 50  0001 C CNN
-F 3 "~" V 6150 2550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2046055.pdf?_ga=2.16655926.1002178609.1534072143-423028813.1532970484" V 6150 2550 50  0001 C CNN
+F 4 "http://no.farnell.com/kingbright/kpt-1608sgc/led-green-12mcd-568nm-0603/dp/2099223?st=LED" V 6150 2550 50  0001 C CNN "Link"
+F 5 "0.585" V 6150 2550 50  0001 C CNN "Price NOK"
 	1    6150 2550
 	0    -1   -1   0   
 $EndComp

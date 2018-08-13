@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Erik\Google Drive\Kicad\Linjal\elektra_linjal\linjal.sch</source>
+    <date>12/08/2018 13:25:58</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>linjal.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>BC-2001</value>
+      <footprint>footprints:BC-2001</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1505853.pdf?_ga=2.122135179.1882748413.1533757880-423028813.1532970484</datasheet>
+      <fields>
+        <field name="Link">http://no.farnell.com/multicomp/bc-2001/retainer-clip-20mm-smt/dp/2064713?st=cr2032%20holder</field>
+        <field name="Price NOK">5.82</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="single battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B3D24</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>FSM4JSMAATR</value>
+      <footprint>FSM4JSMAATR:SW_FSM4JSMAATR</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2074932.pdf?_ga=2.114085255.1882748413.1533757880-423028813.1532970484</datasheet>
+      <fields>
+        <field name="Link">http://no.farnell.com/alcoswitch-te-connectivity/fsm4jsmaatr/tactile-switch-spst-no-0-05a-24v/dp/2610936</field>
+        <field name="Price NOK">1.53</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4166</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM555</value>
+      <footprint>digikey-footprints:8-SOIC</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm555.pdf</datasheet>
+      <fields>
+        <field name="Link">http://no.farnell.com/texas-instruments/lm555cm-nopb/ic-timer-18v-smd/dp/1469006?ost=LM555CM%2FNOPB&amp;scope=partnumberlookahead&amp;exaMfpn=true&amp;searchref=searchlookahead&amp;ddkey=http%3Ano-NO%2FElement14_Norway%2Fw%2Fsearch</field>
+        <field name="Price NOK">9.71</field>
+      </fields>
+      <libsource lib="Timer" part="LM555" description="Timer, DIP-8/SOIC-8/SSOP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B41D9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B426C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>300n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2546801.pdf?_ga=2.39332131.1002178609.1534072143-423028813.1532970484</datasheet>
+      <fields>
+        <field name="Link">http://no.farnell.com/wurth-elektronik/885012206011/cap-mlcc-x7r-3300pf-10v-0603/dp/2812324</field>
+        <field name="Price NOK">0.298</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B460C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4C26</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4AFD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4BB3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4BD9</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4CCF</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4D8D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4D93</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4D99</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B4D9F</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B5074</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B507B</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B5082</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B5089</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B5090</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B5097</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B509E</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B50A5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2046055.pdf?_ga=2.16655926.1002178609.1534072143-423028813.1532970484</datasheet>
+      <fields>
+        <field name="Link">http://no.farnell.com/kingbright/kpt-1608sgc/led-green-12mcd-568nm-0603/dp/2099223?st=LED</field>
+        <field name="Price NOK">0.585</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B52D9</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="LED, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B547A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B61D4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B8312</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>LED, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="LM555">
+      <aliases>
+        <alias>ICM7555</alias>
+        <alias>LMC555xM</alias>
+        <alias>LMC555xMM</alias>
+        <alias>LMC555xN</alias>
+        <alias>MC1455</alias>
+        <alias>TLC555CD</alias>
+        <alias>TLC555CP</alias>
+        <alias>TLC555CPS</alias>
+        <alias>NA555</alias>
+        <alias>NE555</alias>
+        <alias>SE555</alias>
+        <alias>SA555</alias>
+      </aliases>
+      <description>Timer, DIP-8/SOIC-8/SSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/kicad-symbols/Switch.lib</uri>
+    </library>
+    <library logical="Timer">
+      <uri>C:\Program Files\KiCad\share\kicad\library/kicad-symbols/Timer.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>
